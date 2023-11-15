@@ -1,13 +1,10 @@
 package jm.task.core.jdbc.util;
 
-import jm.task.core.jdbc.model.User;
-
-import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class Util {
-    private final static String DRIVER = "org.mysql.Driver";
     private final static String URL = "jdbc:mysql://localhost:3306/mydbtest";
     private final static String USERNAME = "root";
     private final static String PASSWORD = "root";
